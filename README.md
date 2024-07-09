@@ -1,0 +1,1 @@
+Hey, my name is Lincoln and i'm making my very own Minectaft mod. I've been playing the game since i can remember. I'm 14 years old and i have 5 years of coding experience. I hope you can give me feedback about my mod and other things! Bye!!
