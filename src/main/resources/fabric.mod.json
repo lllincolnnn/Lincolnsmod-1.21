@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "lincolnsmod",
+	"version": "${version}",
+	"name": "Lincolnsmod",
+	"description": "This is the official Lincoln's mod.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/lincolnsmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lincoln.lincolnsmod.Lincolnsmod"
+		],
+		"client": [
+			"net.lincoln.lincolnsmod.LincolnsmodClient"
+		],
+		"fabric-datagen": [
+			"net.lincoln.lincolnsmod.LincolnsmodDataGenerator"
+		]
+	},
+	"mixins": [
+		"lincolnsmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
